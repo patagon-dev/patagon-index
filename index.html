@@ -3,7 +3,7 @@
 <title>Patagon Labs Portfolio</title>
 <head>
     <style>
-        :root{
+:root{
   --background-dark: #2d3548;
   --text-light: rgba(255,255,255,0.6);
   --text-lighter: rgba(255,255,255,0.9);
@@ -25,7 +25,7 @@
 html{
   height: 100%;
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 body{
@@ -43,7 +43,7 @@ body{
 
 .card-grid{
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: var(--spacing-l);
   grid-row-gap: var(--spacing-l);
   max-width: var(--width-container);
@@ -52,13 +52,13 @@ body{
 
 @media(min-width: 540px){
   .card-grid{
-    grid-template-columns: repeat(4, 1fr); 
+    grid-template-columns: repeat(2, 1fr); 
   }
 }
 
 @media(min-width: 960px){
   .card-grid{
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(6, 1fr); 
   }
 }
 
